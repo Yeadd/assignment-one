@@ -1,0 +1,180 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    margin: 0px;
+}
+/* BANNER PART */
+
+.banner-section{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.banner-title{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner-button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 23px;
+}
+.banner{
+    margin-left: 70px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+.picture{
+    margin-bottom: 0px;
+    margin-right: 70px;
+    margin-top: 40px;
+}
+.header{
+    background-color:rgba(229, 84, 115, 0.10);;
+}
+
+/* HOT DEAL PART */
+.hot-section{
+    display: flex;
+    justify-content: space-between;
+}
+.hot-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.hot-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.hot-deal{
+ text-align: center;
+ margin: 130px 80px 330px 200px;
+ 
+}
+.hot-button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 38px;
+}
+.color{
+    color: #E55473;
+}
+.hot-picture{
+    margin: 100px 70px 100px 50px;
+}
+
+/* INSTRAGRAM PART */
+.instragram{
+    text-align: center;
+    margin: 200px 300px;
+    margin-bottom: 48px;
+    margin-top: 128px;
+}
+.instragram-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instragram-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.instragram-picture{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 128px;
+}
+
+/* update part */
+.update-section{
+    margin-top: 128px;
+    margin-right: 100px;
+    margin-bottom: 128px;
+    margin-left: 100px;
+    background-image: url('../images/Rectangle\ 9.png');
+    height: 449px;
+    width: 1440px;
+    background-repeat: no-repeat;
+}
+.update{
+    text-align: center;
+}
+.update-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.update-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.up-box{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+}
+.up-button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 25px;
+    position: right;
+}
+/* footer section */
+
+.footer-section{
+    height: 449px;
+    width: 1640px;
+    text-align: center;
+    background-color: #272727;
+    /* margin-top: 200px; */
+}
+.footer-tile{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+
+font-size: 18px;
+
+font-weight: 400;
+}
+.footer-idk{
+    color: rgba(255, 255, 255, 0.40);
+
+font-size: 16px;
+
+font-weight: 400;
+
+}
+.footer-div{
+    margin-top: 70px ;
+}
