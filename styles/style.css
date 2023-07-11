@@ -254,6 +254,33 @@ body{
 .footer-div{
     padding-top: 70px ;
 }
+
+/* partner Company */
+
+#partners-heading {
+    font-size: 55px;
+}
+
+.partners-paragraph {
+    font-size: 20px;
+    color: rgb(134, 132, 132);
+}
+
+#company-img {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.partners {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 5px;
+}
+
+.rolex {
+    padding-bottom: 100px;
+}
+
 /* EXTRA SECTION */
 
 .extra-div{
