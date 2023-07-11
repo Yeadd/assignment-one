@@ -11,6 +11,8 @@ body{
 .banner-section{
     display: flex;
     /* justify-content: space-between; */
+    margin-left: 70px;
+    margin-right: 70px;
 }
 .banner-title{
     color: #272727;
@@ -32,15 +34,16 @@ body{
     padding: 23px;
 }
 .banner{
-    margin-left: 70px;
+    /* margin-left: 70px; */
     margin-top: 150px;
     margin-bottom: 100px;
-    margin-right: 50px;
+    margin-right: 250px;
 }
 .picture{
     margin-bottom: 0px;
-    margin-right: 70px;
+    /* margin-right: 70px; */
     margin-top: 40px;
+    margin-left: 0px;
 }
 .header{
     background-color:rgba(229, 84, 115, 0.10);;
@@ -78,21 +81,41 @@ body{
     text-align: center;
     text-decoration-line: underline;
 }
-.pic-1{
-    height: 350px;
+.featured-row-one{
     border-radius: 300px 300px 0px 0px; 
     background: rgba(167, 33, 98, 0.15);
-    /* height: 300px; */
 }
-.pic-3{
+.featured-row-two{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(240, 77, 140, 0.15);
+}
+.featured-row-three{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    height: 350px;
+}
+.featured-row-one,.featured-row-two,.featured-row-three{
+    width: 400px;
+    height: 500px;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 120px;
+    margin-top: -20px
 }
 .pic-2{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-    height: 350px;
+    padding-left: 80px;
+    padding-top: 40px;
+    width: 250px;
+    height: 360px;
+    margin-top: 100px;
+}
+.pic-1,.pic-3{
+    padding-left: 80px;
+    padding-top: 40px;
+    width: 250px;
+    height: 360px;
+    margin-top: 100px;
 }
 
 /* HOT-DEAL SECTION */
@@ -100,6 +123,7 @@ body{
 .hot-section{
     display: flex;
     justify-content: space-between;
+    background-color: #FFF;;
 }
 .hot-title{
     color: #272727;
@@ -113,7 +137,7 @@ body{
 }
 .hot-deal{
  text-align: center;
- margin: 130px 80px 330px 200px;
+ margin: 130px 0px 330px 250px;
  
 }
 .hot-button{
@@ -128,7 +152,7 @@ body{
     color: #E55473;
 }
 .hot-picture{
-    margin: 100px 70px 100px 50px;
+    margin: 100px 300px 100px 50px;
 }
 
 /* INSTRAGRAM SECTION */
@@ -137,7 +161,7 @@ body{
     text-align: center;
     margin: 200px 300px;
     margin-bottom: 48px;
-    margin-top: 128px;
+    margin-top: 80px;
 }
 .instragram-title{
     color: #272727;
@@ -171,7 +195,7 @@ body{
     background-repeat: no-repeat;
 }
 .update{
-    margin-top: 30px;
+    padding-top: 100px;
     text-align: center;
 }
 .update-title{
@@ -217,19 +241,35 @@ body{
 }
 .footer-description{
     color: rgba(255, 255, 255, 0.90);
-
-font-size: 18px;
-
-font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
 }
 .footer-idk{
     color: rgba(255, 255, 255, 0.40);
-
-font-size: 16px;
-
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 
 }
 .footer-div{
-    margin-top: 70px ;
+    padding-top: 70px ;
+}
+/* EXTRA SECTION */
+
+.extra-div{
+   display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.extra-section{
+    background-color: #8a273c;
+    width: 1640px;
+}
+.extra-description, .extra-title{
+    color: #FFFFFF;
+}
+.extra-title{
+    text-decoration: solid;
+    text-decoration: underline;
 }
