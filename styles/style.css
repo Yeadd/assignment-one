@@ -225,6 +225,32 @@ body{
     padding: 25px;
     position: right;
 }
+/* ROLEX SECTION */
+
+#partners-heading {
+    font-size: 55px;
+}
+
+.partners-paragraph {
+    font-size: 20px;
+    color: rgb(134, 132, 132);
+}
+
+#company-img {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.partners {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 5px;
+}
+
+.rolex {
+    padding-bottom: 100px;
+}
+
 
 /* FOOTER SECTION */
 
@@ -255,49 +281,3 @@ body{
     padding-top: 70px ;
 }
 
-/* partner Company */
-
-#partners-heading {
-    font-size: 55px;
-}
-
-.partners-paragraph {
-    font-size: 20px;
-    color: rgb(134, 132, 132);
-}
-
-#company-img {
-    margin-top: 0px;
-    text-align: center;
-}
-
-.partners {
-    text-align: center;
-    margin-top: 0px;
-    padding-top: 5px;
-}
-
-.rolex {
-    padding-bottom: 100px;
-}
-
-/* EXTRA SECTION */
-
-.extra-div{
-   display: flex;
-    /* text-align: center; */
-    justify-content: space-around;
-    margin-left: 70px;
-    margin-right: 70px;
-}
-.extra-section{
-    background-color: #8a273c;
-    width: 1700px;
-}
-.extra-description, .extra-title{
-    color: #FFFFFF;
-}
-.extra-title{
-    text-decoration: solid;
-    text-decoration: underline;
-}
